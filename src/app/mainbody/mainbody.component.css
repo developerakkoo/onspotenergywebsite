@@ -1,0 +1,45 @@
+.OurClientBox {
+    background-color: lightgray;
+}
+
+.application {
+    background-color: lightgray;
+    box-shadow: 10px 10px grey;
+}
+
+/* .swiper-container .swiper-slide {
+    background-color: blueviolet;
+} */
+
+/* .swiper-slide-custom {
+    transition: transform 0.3s ease;
+  }
+  
+  .swiper-slide-custom.swiper-slide-active {
+    transform: scale(1.2); /* Increase the size of the active slide */
+
+/* .swiper-slide {}
+
+.swiper-slide:nth-child(2n+2) {
+    width: 300px;
+    /* Adjust width as needed */
+    /* height: 300px; */
+    /* Adjust height as needed */
+/* } */ 
+
+.mySwiper{
+  height: 350px;
+}
+
+/* .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  } */
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }

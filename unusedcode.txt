@@ -1,0 +1,153 @@
+
+  <!-- banner start here  -->
+
+  <div class="w-full mt-20 mb-72 h-96 my-10 relative ">
+    <img src="../assets/WhatsApp Image 2024-02-20 at 10.09.19 PM.jpeg" class="h-[780px] absolute w-full" alt="">
+    <div class="w-full absolute">
+       <!-- first div  -->
+      <div class="w-fulls flex flex-nowrap justify-around">
+      <div><img src="../assets/editedbatter1.png" class="h-[400px]" alt=""></div>
+      <div class="my-auto space-y-3">
+        <h1 class="font-extrabold text-5xl">MICRO</h1>
+        <P class="font-bold">The most versatile battery <br> for all your uses.</P>
+        <button style="background-color: #FFF918;" class="border-2 rounded-lg font-bold border-black  px-4 py-1">BUY NOW</button>
+      </div>
+    </div>
+  <!-- first div ends  -->
+
+  <!-- second div start  -->
+    <div class="w-fulls flex flex-nowrap justify-around">
+      <div class="space-y-5">
+        <!-- c ontent  -->
+           <h1 class="text-4xl font-bold">Specifications</h1> 
+           <div class="flex justify-between ">
+            <span class="text-start"> <button style="background-color: #FFF918;" class=" border-2 border-black font-bold text-2xl px-2 rounded-lg">50 W</button> <p>Battery Capacity</p> </span>
+            <span class="text-end"> <button style="background-color: #FFF918;" class=" border-2 border-black font-bold text-2xl px-2 rounded-lg ">4 Hr</button> <p>Charging Time</p> </span>
+           </div>
+
+           <div>
+            <button style="background-color: #FFF918;" class="px-2 border-2 border-black rounded-lg font-semibold">BATTERY INVERTER COMBO</button>
+            <p>Reliable power is the need of upcoming future</p>
+           </div>
+
+           <div>
+            <button style="background-color: #FFF918;" class="px-2 border-2 border-black rounded-lg font-semibold">DUAL POWER OUTPUT</button>
+            <p>Provide 12 C DC and 230 AC simultaneously</p>
+           </div>
+
+           <div>
+            <button style="background-color: #FFF918;" class="px-2 border-2 border-black rounded-lg font-semibold">700 gm WEIGHT</button>
+            <p>Lightweight, makes it highly portable</p>
+           </div>
+
+
+      </div>
+      <div>
+        <!-- image  -->
+        <img src="../assets/editedbatter2.png" class="h-[420px]" alt="">
+      </div>
+    </div>
+    <!-- second div ends  -->
+    </div>
+    
+
+  </div>
+
+  <!-- banner ends here  -->
+<br> <br> <br> <br> <br> <br>
+ <!-- application starts here  -->
+<div class=" mx-14 ">
+  <h1 class="text-5xl font-bold mb-5">Applications</h1>
+  <p class="font-bold">The versatile and adaptive uses of micro</p>
+</div>
+ <div class="flex flex-wrap justify-around my-10">
+  <div>
+    <div class="application" ></div>
+    <div class="text-center font-medium font-medium py-5"> Wifi routers and agri pumps</div>
+  </div>
+  <div>
+    <div class="application" ></div>
+    <div class="text-center font-medium py-5">Emergency Light and Other</div>
+  </div>
+  <div>
+    <div class="application" ></div>
+    <div class="text-center font-medium py-5">Mobile Phones and Radio Devices</div>
+  </div>
+  <div>
+    <div class="application" ></div>
+    <div class="text-center py-5">Camera and video Equipment</div>
+  </div>
+  
+ </div>
+
+ <!-- application ends here  -->
+
+
+  <!-- change your vehical starts  -->
+
+  <div class="flex flex-row justify-between space-x-5 w-full">
+    <div class="h-[220px] basis-1/4 flex justify-center items-end my-auto" style="background-color: lightgrey;">
+      <div class="bg-white p-2 w-full text-center">Change your vehical</div>
+    </div>
+
+    <div class="h-[320px] basis-1/2 flex justify-center items-end my-auto" style="background-color: lightgrey;"> 
+      <div class="bg-white p-2 w-full text-center">Micro and much more!</div>
+    </div>
+
+    <div class="h-[220px] basis-1/4 flex justify-center items-end my-auto" style="background-color: lightgrey;">
+      <div class="bg-white p-2 w-full text-center">Protability and Power</div>
+    </div>
+  </div>
+
+  <!-- change your vehical ends  -->
+
+  <!-- Our clients starts here  -->
+
+  <div class="my-10">
+    <h1 class="font-bold text-5xl my-10">Our Clients</h1>
+    <div class="flex flex-wrap space-x-10 justify-around pb-16">
+      <div class="OurClientBox flex justify-center items-center"> Logo Here</div>
+      <div class="OurClientBox flex justify-center items-center">Logo Here</div>
+      <div class="OurClientBox flex justify-center items-center">Logo Here</div>
+      <div class="OurClientBox flex justify-center items-center"> Logo Here</div>
+      <div class="OurClientBox flex justify-center items-center"> Logo Here</div>
+    </div>
+  </div>
+
+  <!-- our client ends here  -->
+
+  000000-000000000000000000000000000\\
+
+  
+  ngOnInit(): void {
+
+      // swiper element
+  const swiperEl = document.querySelector('swiper-container') ;
+
+    // swiper parameters
+  const swiperParams = {
+    slidesPerView: 1,
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+    },
+    on: {
+      init() {
+        // ...
+      },
+    },
+  };
+
+  // now we need to assign all parameters to Swiper element
+  Object.assign(swiperEl, swiperParams);
+
+  // and now initialize it
+  swiperEl?.initialize();   
+  }
+
+
+  ------------00000000000000000000000

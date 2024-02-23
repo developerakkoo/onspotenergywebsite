@@ -1,0 +1,184 @@
+<!-- banner start here  -->
+
+<div class="w-full my-5 bg-slate-200 bg-cover" style="background-image: url(); background-repeat: no-repeat; ">
+  <!-- <img src="../assets/WhatsApp Image 2024-02-20 at 10.09.19 PM.jpeg" class="h-[800px]  absolute w-full" alt=""> -->
+
+    <!-- first div  -->
+    <div class="w-full grid grid-cols-2 justify-center ">
+      <div class=""><img src="../assets/editedbatter1.png" class="h-[250px] sm:h-[300px] md:h-[400] mx-auto sm:mx-none" alt=""></div>
+      <div class=" mx-auto sm:mx-0 my-auto space-y-1 sm:space-y-3 ">
+        <h1 class="font-extrabold text-2xl sm:text-3xl md:text-5xl">MICRO</h1>
+        <P class="font-bold text-xs sm:text-lg">The most versatile battery  for all your uses.</P>
+        <button style="background-color: #FFF918;" class="border-2 rounded-lg font-bold border-black  px-4 py-1">BUY
+          NOW</button>
+      </div>
+    </div>
+    <!-- first div ends  -->
+
+    <!-- second div start  -->
+    <div class="w-full grid grid-cols-2 ">
+      <div class="space-y-2 sm:space-y-4 ml-6 sm:ml-2 mb-3 sm:mb-0 sm:space-y-5 w-full  px-0 lg:px-20 mt-12 ">
+        <!-- c ontent  -->
+        <h1 class="text-2xl sm:text-4xl font-bold ">Specifications</h1>
+        <div class="flex justify-between ">
+          <span class="text-start"> <button style="background-color: #FFF918;"
+              class=" border-2 border-black font-bold text-lg sm:text-2xl px-2 rounded-lg">50 W</button>
+            <p class="font-bold text-xs sm:text-lg">Battery Capacity</p>
+          </span>
+          <span class="text-end"> <button style="background-color: #FFF918;"
+              class=" border-2 border-black font-bold text-lg sm:text-2xl px-2 rounded-lg ">4 Hr</button>
+            <p class="font-bold text-xs sm:text-lg">Charging Time</p>
+          </span>
+        </div>
+
+        <div>
+          <button style="background-color: #FFF918;" class="px-2 text-sm sm:text-lg border-2 border-black rounded-lg font-bold sm:font-semibold">BATTERY
+            INVERTER COMBO</button>
+          <p class="font-bold text-xs sm:text-lg">Reliable power is the need of upcoming future</p>
+        </div>
+
+        <div>
+          <button style="background-color: #FFF918;" class="px-2 border-2 border-black rounded-lg font-semibold">DUAL
+            POWER OUTPUT</button>
+          <p class="font-bold text-xs sm:text-lg">Provide 12 C DC and 230 AC simultaneously</p>
+        </div>
+
+        <div>
+          <button style="background-color: #FFF918;" class="px-2 border-2 border-black rounded-lg font-semibold">700 gm
+            WEIGHT</button>
+          <p class="font-bold text-xs sm:text-lg">Lightweight, makes it highly portable</p>
+        </div>
+
+
+      </div>
+      <div class="grow flex justify-center">
+        <!-- image  -->
+        <img src="../assets/editedbatter2.png" class="h-[300px] sm:h-[550px] " alt="">
+      </div>
+    </div>
+    <!-- second div ends  -->
+  
+
+</div>
+
+<!-- banner ends here  -->
+
+
+
+<!-- application starts here  -->
+<div class=" mx-14 ">
+  <h1 class="text-3xl sm:text-5xl font-bold mb-5">Applications</h1>
+  <p class="font-bold">The versatile and adaptive uses of micro</p>
+</div>
+<div class=" my-10 mx-5">
+  <swiper-container [slidesPerView]="3" [navigation]="true" [spaceBetween]="50" [breakpoints]="breakpoints"  [loop]="true" >
+ <ng-container *ngFor="let item of data">
+  <swiper-slide>
+    <div>
+      <div class="application w-full h-72 md:h-96"></div>
+      <div class="text-center font-medium py-5">{{ item.data }}</div>
+    </div>
+  </swiper-slide>
+</ng-container>
+  </swiper-container>
+</div>
+
+<!-- application ends here  -->
+
+
+<!-- change your vehical starts  -->
+
+<!-- <div class="flex flex-row justify-between space-x-5 w-full">
+  <div class="h-[220px] basis-1/4 flex justify-center items-end my-auto" style="background-color: lightgrey;">
+    <div class="bg-white p-2 w-full text-center">Change your vehical</div>
+  </div>
+
+  <div class="h-[320px] basis-1/2 flex justify-center items-end my-auto" style="background-color: lightgrey;">
+    <div class="bg-white p-2 w-full text-center">Micro and much more!</div>
+  </div>
+
+  <div class="h-[220px] basis-1/4 flex justify-center items-end my-auto" style="background-color: lightgrey;">
+    <div class="bg-white p-2 w-full text-center">Protability and Power</div>
+  </div>
+</div> -->
+
+<!-- ---------------------- -->
+ <!-- <ng-container *ngFor="let item of data">
+    <swiper-slide class="swiper-slide">
+      <div class="h-[320px] flex justify-center items-end my-auto" style="background-color: lightgrey;">
+        <div class="bg-white p-2 w-full text-center">{{ item.data}} Change your vehical</div>
+      </div>
+    </swiper-slide>
+  </ng-container> -->
+  <!-- ----------------------------------- -->
+
+<div class="" >
+  <swiper-container class="" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+  slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+  coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true" [navigation]="true">
+    
+     <ng-container *ngFor="let item of data">
+    <swiper-slide class="swiper-slide">
+      <div class="h-[350px] flex justify-center items-end my-auto" style="background-color: lightgrey;">
+        <div class="bg-white p-2 w-full text-center">{{ item.data}} Change your vehical</div>
+      </div>
+    </swiper-slide>
+  </ng-container>
+  </swiper-container>
+</div>
+
+<!-- change your vehical ends  -->
+
+<!-- Our clients starts here  -->
+
+<div class="my-10 mx-5">
+  <h1 class="font-bold text-3xl sm:text-5xl my-10">Our Clients</h1>
+  <div class="">
+    <swiper-container  [slidesPerView]="5" [pagination]="{ clickable: true }" [navigation]="true" 
+    [spaceBetween]="50" [breakpoints]="breakpointsForOurClients"  [loop]="true" >
+      <ng-container *ngFor="let item of data">
+       <swiper-slide>
+         <div>
+           <div class=" shadow-lg rounded-lg w-full h-48 p-5 flex justify-center items-center"><img [src]="item.imgurl" class="h-[100%] sm:h-[80%]  " alt=""></div>
+           <!-- <div class="text-center font-medium py-5">{{ item.data }}</div> -->
+         </div>
+       </swiper-slide>
+     </ng-container>
+       </swiper-container>
+  </div>
+</div>
+
+<!-- our client ends here  -->
+
+
+
+
+
+<!-- swiper here  -->
+
+<!-- <swiper-container  [scrollbar]="{ draggable: true }" [slidesPerView]="1"
+[spaceBetween]="50" loop="true" navigation="true">
+
+  <swiper-slide>
+    hhhh
+  </swiper-slide>
+  <swiper-slide>
+    hhhh
+  </swiper-slide>
+  <swiper-slide>
+    hhhh
+  </swiper-slide>
+  <swiper-slide>
+    hhhh
+  </swiper-slide>
+  <swiper-slide>
+    hhhh
+  </swiper-slide>
+  <swiper-slide>
+    hhhh
+  </swiper-slide>
+  <swiper-slide>
+    hhhh
+  </swiper-slide>
+  
+</swiper-container> -->
